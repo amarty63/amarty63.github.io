@@ -8,6 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="mapbox/mapbox-gl.css">
         <link rel="stylesheet" href="css/qgis2web.css">
+        <link rel="stylesheet" href="./mapbox/measure.css">
         <style>
         #map {
             width: 769px;
@@ -23,17 +24,12 @@
         </div>
         <script src="js/qgis2web_expressions.js"></script>
         <script src="./mapbox/mapbox-gl.js"></script>
-        <script src="data/FondoccupationsolCLC_0.js"></script>
-        <script src="data/Surfaceseneau_1.js"></script>
-        <script src="data/Routesprincipales_2.js"></script>
-        <script src="data/Bti_3.js"></script>
-        <script src="data/HaiesIGNBDHaies_4.js"></script>
-        <script src="data/AlignementsdarbresPlantezleDcor_5.js"></script>
-        <script src="data/BosquetsPlantezleDcor_6.js"></script>
-        <script src="data/HaiesPlantezleDcor_7.js"></script>
-        <script src="data/VergersPlantezleDcor_8.js"></script>
-        <script src="data/Communes_9.js"></script>
-        <script src="data/EPCI_10.js"></script>
+        <script src="data/AlignementsdarbresPlantezleDcor_0.js"></script>
+        <script src="data/BosquetsPlantezleDcor_1.js"></script>
+        <script src="data/HaiesPlantezleDcor_2.js"></script>
+        <script src="data/VergersPlantezleDcor_3.js"></script>
+        <script src="data/Communes_4.js"></script>
+        <script src="data/EPCI_5.js"></script>
 <script src="./mapbox/style.js"></script>
 <script src="./js/Autolinker.min.js"></script>
 <script>
@@ -53,5 +49,7 @@ map.addControl(new mapboxgl.AttributionControl({
 var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
 
 </script>
+        <script src="./mapbox/measureMetric.js"></script>
+        <script src="./mapbox/turf.min.js"></script>
     </body>
 </html>
